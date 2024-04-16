@@ -56,11 +56,23 @@
 			"sdkConfigs": {
 				"ad": {},
 				"geolocation": {
+					"amap": {
+						"name": "amapagOLoJKB",
+						"__platform__": ["android"],
+						"appkey_ios": "0d2cacc3481758c44104a4000c3d1eea",
+						"appkey_android": "0d2cacc3481758c44104a4000c3d1eea"
+					},
 					"system": {
 						"__platform__": ["ios", "android"]
 					}
 				},
-				"maps": {}
+				"maps": {
+					"amap": {
+						"name": "amapagOLoJKB",
+						"appkey_ios": "0d2cacc3481758c44104a4000c3d1eea",
+						"appkey_android": "0d2cacc3481758c44104a4000c3d1eea"
+					}
+				}
 			},
 			"icons": {
 				"android": {
@@ -159,5 +171,10 @@
 	},
 	"vueVersion": "2",
 	"locale": "zh-Hans",
-	"fallbackLocale": "zh-Hans"
+	"fallbackLocale": "zh-Hans",
+	"h5": {
+		"sdkConfigs": {
+			"maps": {}
+		}
+	}
 }
