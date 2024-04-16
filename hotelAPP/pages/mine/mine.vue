@@ -42,6 +42,17 @@
 				<u-icon name="../../static/icon/jiantou-xiangyou.png" size="15"></u-icon>
 			</view>
 		</view>
+		<!-- 客服中心 -->
+		<view class="message" @click="goGpt">
+			<view class="left">
+				<u-icon name="../../static/icon/kefulogo.png" size="23"></u-icon>
+				<view>客服中心</view>
+			</view>
+			<view class="right">
+				<u-icon name="../../static/icon/jiantou-xiangyou.png" size="15"></u-icon>
+			</view>
+		</view>
+
 		<!-- logo -->
 		<Logo class="logo"></Logo>
 		<!-- 无网络提示 -->
@@ -93,6 +104,13 @@
 					url: '/pages/message/message'
 				})
 			},
+			// 点击前往客服中心 
+			goGpt() {
+				uni.navigateTo({
+					url: '/pages/gpt/gpt'
+				})
+			},
+
 			// 获取用户未读消息数
 			async getReadNuber() {
 				await this.$store.dispatch('getReadNuber', { id: this.userInfo.id })

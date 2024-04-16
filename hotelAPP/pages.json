@@ -3,6 +3,16 @@
 		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [{
+			"path": "pages/first/first",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false
+				}
+			}
+		}, {
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "小黄鸭 · 酒店",
@@ -129,6 +139,13 @@
 			"path": "pages/judgeList/judgeList",
 			"style": {
 				"navigationBarTitleText": "评论列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/gpt/gpt",
+			"style": {
+				"navigationBarTitleText": "客服",
 				"enablePullDownRefresh": false
 			}
 		}

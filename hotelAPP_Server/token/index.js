@@ -10,7 +10,7 @@ const getToken = (user) => {
 		sex: user.sex,
 		avatar: user.avatar
 	}, 'Hotel_App_www.zhujunpeng.love_zhujunpeng.love_Jun', {
-		expiresIn: '1h'
+		expiresIn: '7d'
 	})
 	return token
 }

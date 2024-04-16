@@ -35,3 +35,6 @@ Vue.use(uView)
 import { errAlert, okAlert } from '@/utils/alert.js'
 Vue.prototype.$errAlert = errAlert
 Vue.prototype.$okAlert = okAlert
+
+// 智能客服key
+Vue.prototype.$key = 'sk-F6C06vN35HTBb5ta0fD4C1DfD6864d38Bb327c618e1c84C3'

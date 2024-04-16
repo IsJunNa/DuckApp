@@ -12,6 +12,7 @@ import room from '@/store/modules/room.js'
 import privacy from '@/store/modules/privacy.js'
 import order from '@/store/modules/order.js'
 import judge from '@/store/modules/judge.js'
+import gpt from '@/store/modules/gpt.js'
 
 // 暴露仓库
 export default new Vuex.Store({
@@ -23,6 +24,7 @@ export default new Vuex.Store({
 		room,
 		privacy,
 		order,
-		judge
+		judge,
+		gpt
 	}
 })
